@@ -7,7 +7,8 @@ The scripts are originally written in MATLAB and utilize the MATLAB/MEX interfac
 The included conda environment is a slight modification to the RRTMG-build-env described in the README of Brian Rose's RRTMG wrapper.
 
 
-References
+References:
+
 Brian Rose's RRTMG wrapper (as part of climlab): https://github.com/climlab/climlab-rrtmg
 
 Duran, Brandon M., et al. "A new method for diagnosing effective radiative forcing from aerosol-cloud interactions in climate models." EGUsphere 2024 (2024): 1-41.
