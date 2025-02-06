@@ -375,6 +375,10 @@ for albedo_ind in range(len(albcs)):
                         # indsolvar
                         # bndsolvar
                         # solcycfrac
+
+                        # Script currently crashes and seg faults after to this call
+                        # to rrtmg_sw. The above mcica_subcol_sw call does not result
+                        # in the same crashing behavior.
                         
                         #  Call the RRTMG_SW driver to compute radiative fluxes
                         uflx_sw, _, _, uflxc_sw, _, _ = rrtmg_sw.climlab_rrtmg_sw(ncol,nlay,icld,
