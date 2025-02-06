@@ -2,7 +2,7 @@
 
 Repository that includes script for calculating RRTMG radiative kernels broadly following the metholodology introduced in Zelinka et al. (2012) and iterated on by Wall et al. (2023) and Duran et al. (2024).
 
-The scripts are originally written in MATLAB and utilize the MATLAB/MEX interface with RRTMG. The goal is to transition these scripts into Python using a Python interface with RRTMG. Some of the Python code is not optimized as we first are attempting to reproduce the MATLAB version of the scripts.
+The scripts are originally written in MATLAB and utilize the MATLAB/MEX interface with RRTMG. The goal is to transition these scripts into Python using a Python interface with RRTMG. Some of the Python code is not optimized as we first are attempting to reproduce the MATLAB version of the scripts. The original MATLAB script is also included in the scripts/ directory, but cannot be run without the MATLAB/MEX interface. Contact bmduran at ucsd dot edu for questions.
 
 The included conda environment is a slight modification to the RRTMG-build-env described in the README of Brian Rose's RRTMG wrapper.
 
